@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # :package_name
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
@@ -68,3 +69,6 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-downloads]: https://packagist.org/packages/:vendor/:package_name
 [link-author]: https://github.com/:author_username
 [link-contributors]: ../../contributors
+=======
+# logsapi
+>>>>>>> 1cc1b92a8926fdb45eb830ec998e803b80217ec6
