@@ -1,22 +1,20 @@
 # Changelog
 
-All Notable changes to `:package_name` will be documented in this file.
+All Notable changes to `logsapi` will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## NEXT - YYYY-MM-DD
+## Date of start: 29.06.2016
+### What's new (1.0.11)
+- Fixed bugs in ServiceProvider, Controller etc.
+- Fixed routing
+- Fixed posts method
 
-### Added
-- Nothing
+### What's new (1.0.10)
+- Fixed bugs in ServiceProvider, Controller etc.
 
-### Deprecated
-- Nothing
+### What's new (1.0.9)
+- Fixed bugs in ServiceProvider, Controller etc.
 
-### Fixed
-- Nothing
-
-### Removed
-- Nothing
-
-### Security
-- Nothing
+### What's new (1.0.8)
+- Fixed bugs in other classes
