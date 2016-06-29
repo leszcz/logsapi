@@ -1,6 +1,6 @@
 <?php
 
-namespace l3szcz\logsapi;
+namespace leszcz\logsapi;
 
 use Illuminate\Support\ServiceProvider;
 

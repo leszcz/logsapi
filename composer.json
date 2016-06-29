@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "l3szcz\\logsapi\\": "src"
+            "leszcz\\logsapi\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "l3szcz\\logsapi\\": "tests"
+            "leszcz\\logsapi\\": "tests"
         }
     },
     "scripts": {
