@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # :package_name
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
@@ -18,14 +18,16 @@ PSRs you support to avoid any confusion with users and contributors.
 Via Composer
 
 ``` bash
-$ composer require :vendor/:package_name
+$ composer require leszcz/logsapi
 ```
 
 ## Usage
 
-``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+```
+POST /api/logs TOKEN from Controller - sha1(HGAPI_.actualdate)
+script return raw laravel.log file.
+GET /api/get_token return actual token for POST (made for tests)
+
 ```
 
 ## Change log
@@ -48,27 +50,24 @@ If you discover any security related issues, please email :author_email instead 
 
 ## Credits
 
-- [:author_name][link-author]
+- [leszcz][link-author]
 - [All Contributors][link-contributors]
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/:vendor/:package_name.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/:vendor/logsapi.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/:vendor/:package_name/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/:vendor/:package_name.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/:vendor/:package_name.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/:vendor/:package_name.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/leszcz/logsapi/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/leszcz/logsapi.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/leszcz/logsapi.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/leszcz/logsapi.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/:vendor/:package_name
-[link-travis]: https://travis-ci.org/:vendor/:package_name
-[link-scrutinizer]: https://scrutinizer-ci.com/g/:vendor/:package_name/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/:vendor/:package_name
-[link-downloads]: https://packagist.org/packages/:vendor/:package_name
-[link-author]: https://github.com/:author_username
+[link-packagist]: https://packagist.org/packages/leszcz/logsapi
+[link-travis]: https://travis-ci.org/leszcz/logsapi
+[link-scrutinizer]: https://scrutinizer-ci.com/g/leszcz/logsapi/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/leszcz/logsapi
+[link-downloads]: https://packagist.org/packages/leszcz/logsapi
+[link-author]: https://github.com/leszcz
 [link-contributors]: ../../contributors
-=======
-# logsapi
->>>>>>> 1cc1b92a8926fdb45eb830ec998e803b80217ec6

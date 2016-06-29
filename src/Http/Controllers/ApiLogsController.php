@@ -11,13 +11,16 @@ class ApiLogsController extends Controller
 
 	function __construct()
 	{
-		$this->token = bcrypt( 'HGAPI_'.date('Y-m-d') );
+		$this->token = sha1( 'HGAPI_'.date('Y-m-d') );
 	}
 
 	public function read(Request $request)
 	{
-		if( $request->has('token') && $request->input('token') == $this->token ) 
-			return file_get_contents( storage_path('logs/laravel.log') );
+		if( $request->has('token') && $request->input('token') == $this->token ) {
+			echo file_get_contents( storage_path('logs/laravel.log') );
+		} else {
+			echo json_encode( ['status' => 'error', 'message' => 'Tokens not match'] );
+		}
 	}
 
 	public function dumpToken()
