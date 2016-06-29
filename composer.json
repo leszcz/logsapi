@@ -1,19 +1,19 @@
 {
-    "name": "l3szcz/logsapi",
+    "name": "leszcz/logsapi",
     "type": "library",
     "description": "Logs Reader API for Laravel",
     "keywords": [
-        "l3szcz",
+        "leszcz",
         "logsapi"
     ],
-    "homepage": "https://github.com/l3szcz/logsapi",
+    "homepage": "https://github.com/leszcz/logsapi",
     "license": "MIT",
     "authors": [
         {
             "name": "Tomasz Leszczyński",
             "email": "tomekleszczynski94@gmail.com",
-            "homepage": "https://1free.eu",
-            "role": "Developer"
+            "homepage": "https://github.com/leszcz/",
+            "role": "https://github.com/l3szcz/logsapi"
         }
     ],
     "require": {
