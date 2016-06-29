@@ -22,12 +22,12 @@ class LogsApiServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->setupRoutes($this->app->router);
+        $this->setupRoutes();
     }
 
     public function setupRoutes(Router $router)
     {
-        $router->group(['namespace' => 'League\Skeleton\Http\Controllers'], function($router)
+        $router->group(['namespace' => 'leszcz\logsapi\Http\Controllers'], function($router)
         {
             require __DIR__.'/Http/routes.php';
         });
