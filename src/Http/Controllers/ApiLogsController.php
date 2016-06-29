@@ -8,7 +8,6 @@ class ApiLogsController extends Controller
 {
 
 	private $token;
-	const FILE = storage_path('logs/laravel.log');
 
 	function __construct()
 	{
@@ -18,7 +17,7 @@ class ApiLogsController extends Controller
 	public function read(Request $request)
 	{
 		if( $request->has('token') && $request->input('token') == $this->token ) 
-			return file_get_contents(self::FILE);
+			return file_get_contents( storage_path('logs/laravel.log') );
 	}
 
 	public function dumpToken()
