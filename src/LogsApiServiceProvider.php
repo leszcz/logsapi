@@ -3,6 +3,7 @@
 namespace leszcz\logsapi;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Routing\Router;
 
 class LogsApiServiceProvider extends ServiceProvider
 {
@@ -22,7 +23,7 @@ class LogsApiServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->setupRoutes();
+        $this->setupRoutes($this->app->router);
     }
 
     public function setupRoutes(Router $router)
