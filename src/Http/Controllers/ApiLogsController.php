@@ -22,9 +22,4 @@ class ApiLogsController extends Controller
 			echo json_encode( ['status' => 'error', 'message' => 'Tokens not match'] );
 		}
 	}
-
-	public function dumpToken()
-	{
-		dump($this->token);
-	}
 }
