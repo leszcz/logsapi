@@ -19,7 +19,7 @@ $ composer require leszcz/logsapi
 ## Usage
 
 ```
-Add LogsApiServiceProvider to config/app.php (leszcz\logsapi\LogsApiServiceProvider::class)
+Add LogsApiServiceProvider to your Laravel config/app.php (leszcz\logsapi\LogsApiServiceProvider::class)
 
 POST /api/logs TOKEN from Controller - sha1(HGAPI_.actualdate)
 script return raw laravel.log file.
