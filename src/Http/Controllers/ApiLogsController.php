@@ -1,4 +1,11 @@
 <?php
+
+/* @file: Http/Controllers/ApiLogsController.php
+ * @description: Controller for LogsAPI. 
+ * @author: Tomasz Leszczyński <tomekleszczynski94@gmail.com>
+ * @version: 1.0.13
+ */
+
 namespace leszcz\logsapi\Http\Controllers;
 
 use Illuminate\Routing\Controller;

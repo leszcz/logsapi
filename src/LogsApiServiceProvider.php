@@ -1,5 +1,11 @@
 <?php
 
+/* @file: LogsApiServiceProvider.php
+ * @description: Service Provider for LogsApi
+ * @author: Tomasz Leszczyński <tomekleszczynski94@gmail.com>
+ * @version: 1.0.13
+ */
+
 namespace leszcz\logsapi;
 
 use Illuminate\Support\ServiceProvider;
